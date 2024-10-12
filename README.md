@@ -1,4 +1,3 @@
-
 ---
 
 # Customer Feedback Sentiment Analysis
@@ -17,7 +16,7 @@ A Flask web application utilizing a Long Short-Term Memory (LSTM) Recurrent Neur
 
 ## Getting Started
 
-Follow these instructions to get the application up and running on your local machine.
+Follow these instructions to set up and run the application locally.
 
 ### 1. Clone the Repository
 
@@ -27,7 +26,7 @@ Clone the repository using the following command:
 git clone https://github.com/Nehal04052/Customer-Feedback-Sentiment-Analysis-using-LSTM.git
 ```
 
-Alternatively, you can [download the repository as a ZIP](https://github.com/your-username/Customer-Feedback-Sentiment-Analysis-using-LSTM/archive/refs/heads/main.zip) and extract it.
+Alternatively, you can [download the repository as a ZIP](https://github.com/Nehal04052/Customer-Feedback-Sentiment-Analysis-using-LSTM/archive/refs/heads/main.zip) and extract the contents.
 
 ### 2. Set Up a Python Virtual Environment
 
@@ -51,18 +50,26 @@ Alternatively, you can [download the repository as a ZIP](https://github.com/you
         ```bash
         source flaskapp/bin/activate
         ```
-
+## Installation
 ### 3. Install Dependencies
 
-Install the necessary packages listed in `requirements.txt`:
+Install the required packages listed in `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
 ```
 
+## Prerequisites
+
+Ensure you have the following software installed on your system:
+
+- [Python 3.x](https://www.python.org/downloads/)
+
+## Running the Application
+
 ### 4. Configure Environment Variables
 
-Set the environment variables for Flask:
+Set the necessary environment variables for Flask:
 
 - On **Windows**:
     ```bash
@@ -77,28 +84,24 @@ Set the environment variables for Flask:
 
 ### 5. Run the Flask Application
 
-Start the application with:
+Run the app with:
 
 ```bash
 python -m flask run
 ```
 
-The app will be available locally at `http://127.0.0.1:5000/`. Open this URL in your web browser to interact with the app.
-
-## Prerequisites
-
-- [Python 3.x](https://www.python.org/downloads/) installed on your machine.
+The app will be hosted locally at `http://127.0.0.1:5000/`. Open this URL in your web browser to interact with the app.
 
 ## Dataset
 
-The project uses the [Twitter US Airline Sentiment Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment), which contains labeled tweets, to train and test the LSTM model for sentiment classification.
+The project uses the [Twitter US Airline Sentiment Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) for training and testing the LSTM-based sentiment classification model. The dataset contains customer feedback in the form of labeled tweets.
 
 ## Built With
 
-- **[Python](https://www.python.org/)** - The core programming language.
-- **[TensorFlow](https://www.tensorflow.org/)** - Deep learning framework for building the LSTM model.
-- **[Flask](https://flask.palletsprojects.com/)** - Lightweight web framework for serving the model and handling requests.
-- **[Pandas](https://pandas.pydata.org/)** - Data analysis and manipulation library.
+- **[Python](https://www.python.org/)** - The main programming language used.
+- **[TensorFlow](https://www.tensorflow.org/)** - For building and training the LSTM neural network model.
+- **[Flask](https://flask.palletsprojects.com/)** - Lightweight web framework to serve the model and handle HTTP requests.
+- **[Pandas](https://pandas.pydata.org/)** - Data manipulation and analysis library.
 
 ## Snapshots
 
